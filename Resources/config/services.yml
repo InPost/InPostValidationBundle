@@ -1,0 +1,7 @@
+parameters:
+#    in_post_validation.example.class: InPost\ValidationBundle\Example
+
+services:
+#    in_post_validation.example:
+#        class: %in_post_validation.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

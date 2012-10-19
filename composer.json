@@ -1,0 +1,26 @@
+{
+    "name": "InPost/ValidationBundle",
+    "version": "1.0.0-dev",
+    "description": "Validators for Symfony 2",
+    "keywords": ["validation"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Przemysław Ciąćka",
+            "email": "pciacka@inpost.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.17",
+        "symfony/framework-bundle": "2.1.2",
+        "symfony/validator": "2.1.*",
+        "symfony/yaml": "2.1.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "InPost\\ValidationBundle": "" }
+    },
+    "target-dir": "InPost/ValidationBundle"
+}
