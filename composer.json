@@ -1,5 +1,5 @@
 {
-    "name": "InPost/ValidationBundle",
+    "name": "inpost/validation-bundle",
     "version": "1.0.0-dev",
     "description": "Validators for Symfony 2",
     "keywords": ["validation"],
