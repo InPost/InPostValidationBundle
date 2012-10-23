@@ -37,4 +37,4 @@ and following some steps.
 
 -------------------------------
 
-This README file has been created based on [FOSUserBundle README file](https://raw.github.com/FriendsOfSymfony/FOSUserBundle/master/README.markdown)
+This documentation has been created based on [FOSUserBundle documentation](https://raw.github.com/FriendsOfSymfony/FOSUserBundle)

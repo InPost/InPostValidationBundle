@@ -4,9 +4,9 @@ This version of the bundle requires Symfony 2.1+.
 
 ## Installation
 
-### Step 1: Download FOSUserBundle using composer
+### Step 1: Download InPostValidationBundle using composer
 
-Add FOSUserBundle in your composer.json:
+Add InPostValidationBundle in your composer.json:
 
 ```js
 {
