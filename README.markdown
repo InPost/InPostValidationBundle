@@ -10,7 +10,7 @@ Included validators:
 Installation
 ------------
 
-All the installation instructions are located in [documentation](https://github.com/InPost/ValidationBundle/blob/master/Resources/doc/index.md).
+All the installation instructions are located in [documentation](https://github.com/InPost/InPostValidationBundle/blob/master/Resources/doc/index.md).
 
 License
 -------
