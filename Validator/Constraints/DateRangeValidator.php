@@ -15,6 +15,7 @@ class DateRangeValidator extends ConstraintValidator
 
         $time = strtotime($value);
 
+        // is_at has highest priority
         if(null !== $constraint->is_at) {
             $constraintTime = strtotime($constraint->is_at);
 
@@ -32,6 +33,7 @@ class DateRangeValidator extends ConstraintValidator
             return;
         }
 
+        // if between is set other options are ignored
         if(null !== $constraint->between) {
             $constraintTimeStart = strtotime($constraint->between[0]);
             $constraintTimeEnd = strtotime($constraint->between[1]);
@@ -50,6 +52,7 @@ class DateRangeValidator extends ConstraintValidator
             return;
         }
 
+        // on_or_(after|before) have higher priority than (after|before)
         if(null !== $constraint->on_or_before) {
             $constraintTime = strtotime($constraint->on_or_before);
 
